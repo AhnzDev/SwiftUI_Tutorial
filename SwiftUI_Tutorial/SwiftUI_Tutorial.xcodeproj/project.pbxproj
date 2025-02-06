@@ -27,6 +27,10 @@
 		C2C583BB24DB7F1A00DD0019 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C583BA24DB7F1A00DD0019 /* FavoriteButton.swift */; };
 		E95DBBCE2D5184DE00F53AD7 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = E95DBBCD2D5184DE00F53AD7 /* hikeData.json */; };
 		E95DBBD02D51850100F53AD7 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95DBBCF2D51850100F53AD7 /* Hike.swift */; };
+		E98CBD9D2D556A8E00D56D70 /* GraphCapsule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98CBD982D556A8E00D56D70 /* GraphCapsule.swift */; };
+		E98CBD9E2D556A8E00D56D70 /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98CBD9A2D556A8E00D56D70 /* HikeGraph.swift */; };
+		E98CBD9F2D556A8E00D56D70 /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98CBD9B2D556A8E00D56D70 /* HikeView.swift */; };
+		E98CBDA02D556A8E00D56D70 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98CBD992D556A8E00D56D70 /* HikeDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +58,10 @@
 		C2C583BA24DB7F1A00DD0019 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		E95DBBCD2D5184DE00F53AD7 /* hikeData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 		E95DBBCF2D51850100F53AD7 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		E98CBD982D556A8E00D56D70 /* GraphCapsule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphCapsule.swift; sourceTree = "<group>"; };
+		E98CBD992D556A8E00D56D70 /* HikeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
+		E98CBD9A2D556A8E00D56D70 /* HikeGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
+		E98CBD9B2D556A8E00D56D70 /* HikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,8 +181,20 @@
 				C2FEB33324B7C98F004FAB73 /* Landmarks */,
 				C20D781924B6CA56002E7AEA /* Badges */,
 				C2C583B724DB7EE900DD0019 /* Helpers */,
+				E98CBD9C2D556A8E00D56D70 /* Hikes */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		E98CBD9C2D556A8E00D56D70 /* Hikes */ = {
+			isa = PBXGroup;
+			children = (
+				E98CBD982D556A8E00D56D70 /* GraphCapsule.swift */,
+				E98CBD992D556A8E00D56D70 /* HikeDetail.swift */,
+				E98CBD9A2D556A8E00D56D70 /* HikeGraph.swift */,
+				E98CBD9B2D556A8E00D56D70 /* HikeView.swift */,
+			);
+			path = Hikes;
 			sourceTree = "<group>";
 		};
 		F0E92604CFEDA83BAF383A9E /* LICENSE */ = {
@@ -221,7 +241,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C20D77E524B665D7002E7AEA /* Build configuration list for PBXProject "DrawingPathsAndShapes" */;
+			buildConfigurationList = C20D77E524B665D7002E7AEA /* Build configuration list for PBXProject "SwiftUI_Tutorial" */;
 			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -274,6 +294,10 @@
 				C20D780124B6846F002E7AEA /* LandmarkRow.swift in Sources */,
 				C20D77FD24B668F4002E7AEA /* CircleImage.swift in Sources */,
 				C20D780324B684BD002E7AEA /* Landmark.swift in Sources */,
+				E98CBD9D2D556A8E00D56D70 /* GraphCapsule.swift in Sources */,
+				E98CBD9E2D556A8E00D56D70 /* HikeGraph.swift in Sources */,
+				E98CBD9F2D556A8E00D56D70 /* HikeView.swift in Sources */,
+				E98CBDA02D556A8E00D56D70 /* HikeDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,7 +489,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C20D77E524B665D7002E7AEA /* Build configuration list for PBXProject "DrawingPathsAndShapes" */ = {
+		C20D77E524B665D7002E7AEA /* Build configuration list for PBXProject "SwiftUI_Tutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C20D77F724B665D8002E7AEA /* Debug */,
