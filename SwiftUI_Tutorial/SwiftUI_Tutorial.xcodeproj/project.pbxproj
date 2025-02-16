@@ -37,6 +37,8 @@
 		E99BE8C72D5C061A005213BD /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99BE8C62D5C061A005213BD /* ProfileSummary.swift */; };
 		E99BE8C92D5C0B42005213BD /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99BE8C82D5C0B42005213BD /* HikeBadge.swift */; };
 		E9A6E8D52D60976F003E3882 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A6E8D42D60976F003E3882 /* PageViewController.swift */; };
+		E9B9BAEC2D629F610027728F /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B9BAEB2D629F610027728F /* FeatureCard.swift */; };
+		E9B9BAEE2D629FF40027728F /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B9BAED2D629FF40027728F /* PageView.swift */; };
 		E9C9F68B2D5ABC67003503A0 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C9F68A2D5ABC67003503A0 /* CategoryHome.swift */; };
 		E9C9F68F2D5ABE4F003503A0 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C9F68E2D5ABE4F003503A0 /* CategoryRow.swift */; };
 		E9C9F6912D5ABECE003503A0 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C9F6902D5ABECE003503A0 /* CategoryItem.swift */; };
@@ -77,6 +79,8 @@
 		E99BE8C62D5C061A005213BD /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		E99BE8C82D5C0B42005213BD /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
 		E9A6E8D42D60976F003E3882 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		E9B9BAEB2D629F610027728F /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
+		E9B9BAED2D629FF40027728F /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		E9C9F68A2D5ABC67003503A0 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		E9C9F68E2D5ABE4F003503A0 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		E9C9F6902D5ABECE003503A0 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
@@ -234,6 +238,8 @@
 			isa = PBXGroup;
 			children = (
 				E9A6E8D42D60976F003E3882 /* PageViewController.swift */,
+				E9B9BAEB2D629F610027728F /* FeatureCard.swift */,
+				E9B9BAED2D629FF40027728F /* PageView.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -333,6 +339,7 @@
 				E99BE8C12D5C0514005213BD /* Profile.swift in Sources */,
 				C20D781024B6A3B1002E7AEA /* HexagonParameters.swift in Sources */,
 				E9C9F68B2D5ABC67003503A0 /* CategoryHome.swift in Sources */,
+				E9B9BAEC2D629F610027728F /* FeatureCard.swift in Sources */,
 				C20D780524B684EC002E7AEA /* ModelData.swift in Sources */,
 				C2C583B624DB7EC700DD0019 /* ContentView.swift in Sources */,
 				C20D781224B6A3E7002E7AEA /* Badge.swift in Sources */,
@@ -346,6 +353,7 @@
 				E99BE8C42D5C055F005213BD /* ProfileHost.swift in Sources */,
 				C20D780B24B68B4D002E7AEA /* LandmarkList.swift in Sources */,
 				C20D781424B6A662002E7AEA /* BadgeBackground.swift in Sources */,
+				E9B9BAEE2D629FF40027728F /* PageView.swift in Sources */,
 				C2C583BB24DB7F1A00DD0019 /* FavoriteButton.swift in Sources */,
 				E921BF522D5D55DD000F23B2 /* ProfileEditor.swift in Sources */,
 				C20D77EE24B665D7002E7AEA /* LandmarksApp.swift in Sources */,
@@ -491,7 +499,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5857WA4NG3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSSupportsLiveActivities = NO;
@@ -523,7 +531,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5857WA4NG3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSSupportsLiveActivities = NO;
