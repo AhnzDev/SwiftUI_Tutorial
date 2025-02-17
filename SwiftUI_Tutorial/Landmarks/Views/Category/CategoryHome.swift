@@ -41,6 +41,7 @@ struct CategoryHome: View {
             Text("Select a Landmark")
         }
     }
+    // 주석 테스트
 }
 
 #Preview {
